@@ -22,7 +22,7 @@
 
     - name: download web files from github
       get_url: 
-        url: https://github.com/azeezsalu/jupiter/archive/refs/heads/main.zip
+        url: https://git@github.com:azokolo1/docker-projects.git/main.zip
         dest: cd /var/www/html/
 
     - name: unzip the zip folder
