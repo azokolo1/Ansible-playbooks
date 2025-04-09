@@ -22,8 +22,8 @@
 
     - name: download web files from github
       get_url: 
-        url: https://github.com/azokolo1/jupiter/blob/main/jupiter-main.zip
-        dest: cd /var/www/html/
+        url: https://github.com/azokolo1/jupiter/archive/refs/heads/main.zip
+        dest: /var/www/html/jupiter-main.zip
 
     - name: unzip the zip folder
       ansible.builtin.unarchive:
